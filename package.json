@@ -1,10 +1,10 @@
 {
-  "name": "express",
+  "name": "expressgraphql",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack/webpack.dev.js"
+    "build": "webpack --config webpack/webpack.dev.js",
+    "start:dev": "node build/index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
