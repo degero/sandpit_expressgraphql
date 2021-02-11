@@ -3,17 +3,18 @@
 Simple template of express server with graphql endpoint
 
 
-
 # Dev Env
 
-# Dependencies
+## Dependencies
 
 Yarn
 
 ***If you have Prettier extension intalled it may cause conflicts with eslint/prettier (used for auto format on save), if so, disable prettier for this workspace
 
-# Run 
+## Run 
 
 yarn build
 
-node build/src.js (graphi will load, make a request to { hello })
+node build/src.js 
+
+graphi will load, make a request to { hello }
